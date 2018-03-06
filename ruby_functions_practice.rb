@@ -108,3 +108,9 @@ return ((4/3) * (pi) * (rad ** 3))
 end
 
 #3
+def fahrenheit_to_celsius(t)
+  x = (5 / 9.0)
+  y = (-32)
+return ((t + y) * x)
+#integer result of 5/9 goes to zero.
+end
