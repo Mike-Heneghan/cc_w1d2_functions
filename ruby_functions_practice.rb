@@ -20,7 +20,8 @@ end
 
 def number_to_full_month_name(month)
 # This passes test and the meaning behind the test.
-  months ={1 => "January",
+  months ={
+    1 => "January",
     2 => "February",
     3 => "March",
     4 => "April",
@@ -76,7 +77,8 @@ end
 
 
 def number_to_short_month_name(month)
-  months ={1 => "Jan",
+  months ={
+    1 => "Jan",
     2 => "Feb",
     3 => "Mar",
     4 => "Apr",
@@ -90,4 +92,9 @@ def number_to_short_month_name(month)
     12 => "Dec"}
   month = months[month]
   return month
+end
+
+# Further Questions
+def volume_of_cube(length)
+  return length ** 3
 end
