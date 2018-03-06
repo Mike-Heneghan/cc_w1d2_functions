@@ -19,15 +19,31 @@ end
 
 
 def number_to_full_month_name(month)
+# This passes test and the meaning behind the test.
+  months ={1 => "January",
+    2 => "February",
+    3 => "March",
+    4 => "April",
+    5 => "May",
+    6 => "June",
+    7 => "July",
+    8 => "August",
+    9 => "September",
+    10 => "October",
+    11 => "November",
+    12 => "December"}
+  month = months[month]
+  return month
+# The method below passed the test but not the meaning of the test
   # month = Hash.new
   # 1 << "January"
-  if month == 1
-    return "January"
-  elsif month == 3
-    return "March"
-  elsif month == 9
-    return "September"
-  end
+  # if month == 1
+  #   return "January"
+  # elsif month == 3
+  #   return "March"
+  # elsif month == 9
+  #   return "September"
+  # end
 end
 
 
@@ -59,12 +75,19 @@ def subtract(num1,num2)
 end
 
 
-def number_to_short_month_name(mon)
-  if mon == 1
-    return "Jan"
-  elsif mon == 3
-    return "Mar"
-  elsif mon == 9
-    return "Sep"
-  end
+def number_to_short_month_name(month)
+  months ={1 => "Jan",
+    2 => "Feb",
+    3 => "Mar",
+    4 => "Apr",
+    5 => "May",
+    6 => "Jun",
+    7 => "Jul",
+    8 => "Aug",
+    9 => "Sep",
+    10 => "Oct",
+    11 => "Nov",
+    12 => "Dec"}
+  month = months[month]
+  return month
 end
