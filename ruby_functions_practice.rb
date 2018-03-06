@@ -95,6 +95,16 @@ def number_to_short_month_name(month)
 end
 
 # Further Questions
+
+# 1
 def volume_of_cube(length)
   return length ** 3
 end
+
+# 2
+def volume_of_sphere(rad)
+pi = Math::PI
+return ((4/3) * (pi) * (rad ** 3))
+end
+
+#3
