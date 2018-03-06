@@ -51,3 +51,20 @@ def length_of_string(string)
   string = string.length
   return string
 end
+
+
+def subtract(num1,num2)
+  subs = num1 - num2
+  return subs
+end
+
+
+def number_to_short_month_name(mon)
+  if mon == 1
+    return "Jan"
+  elsif mon == 3
+    return "Mar"
+  elsif mon == 9
+    return "Sep"
+  end
+end
