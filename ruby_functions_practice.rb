@@ -104,7 +104,7 @@ end
 # 2
 def volume_of_sphere(rad)
 pi = Math::PI
-return ((4/3) * (pi) * (rad ** 3))
+return ((4/3.0) * (pi) * (rad ** 3.0))
 end
 
 #3
